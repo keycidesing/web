@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="./img/logo.png"  type="image/jpg">
+    <!-- Enlaces de Bootstrap y Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+    <body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #fbd204;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Logo" width="80" height="60" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-black " aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Carta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./carta.html">Entradas</a></li>
+                <li><a class="dropdown-item" href="./carta.html">Quesadillas y Nachos</a></li>
+                <li><a class="dropdown-item" href="./carta.html">Tacos y Fajitas</a></li>
+                <li><a class="dropdown-item" href="./carta.html">Bowls y Ensaladas</a></li>
+                <li><a class="dropdown-item" href="./carta.html">Crispers</a></li>
+                <li><a class="dropdown-item" href="./carta.html">Hamburguesas</a></li>
+                <li><a class="dropdown-item" href="./carta.html">Bebidas</a></li>
+                <!-- Puedes agregar más elementos en el menú desplegable aquí -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="./Nosotros.html">Sobre Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit" style="background-color: #8fa004; border-color: #ffffff; color: white;" >Buscar</button>
+          </form>
+          <form class="d-flex ms-4" role="search">
+            <a class="navbar-brand" href="usuario.html">
+              <i class="fas fa-user-plus fa-1x" ></i>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br>
+<!-- carrusel -->
+    <div class="container-fluid">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/portada1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/portada2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/portada5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/portada6.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <!-- cards-->
+    <div class="container2">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/cards1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" >
+              <h5 class="card-title" style="color: #516804;" >QUESADILLAS</h5>
+              <p class="card-text">La quesadilla es un plato a base de tortilla doblada a 
+                la mitad, esta es de maiz, y esta rellena de queso o algún guisado. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/cards3.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #516804;">FAJITAS</h5>
+              <p class="card-text">La fajita es uno de los platos más tradicional y popular de la cocina Tex-Mex (fusion de cocina mexicana y texana). </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./img/cards4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #516804;">ENSALADAS</h5>
+              <p class="card-text">La ensalada es un plato que combina hortalizas frías (como lechuga, espinaca, etc.) y verduras.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Gallery -->
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+          src="../img/galeria7.jpeg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Boat on Calm Water"
+        />
+
+        <img
+          src="../img/galeria6.png"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Wintry Mountain Landscape"
+        />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="../img/galeria1.webp"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Mountains in the Clouds"
+        />
+
+        <img
+          src="../img/galeria4.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Boat on Calm Water"
+        />
+
+        
+        <img
+          src="../img/galeria1.webp"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Boat on Calm Water"
+        />
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="../img/galeria5.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Waves at Sea"
+        />
+
+        <img
+          src="../img/galaria3.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Yosemite National Park"
+        />
+      </div>
+    </div>
+
+    <!--  M A P A  -->
+    <div class="mapa">
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.1831070971294!2d-79.83335698253805!3d-6.777915530058977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef2c59d890b5%3A0x5196968a2e68399b!2sChili&#39;s!5e0!3m2!1ses-419!2spe!4v1722458298807!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe id="video" src="https://www.youtube.com/embed/dpCRe7HVFiI" title="En La Cocina - Chili&#39;s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+ <!-- Footer -->
+ <footer class=" text-black py-4" style="background-color: #fbd204;" >
+  <div class="container"  >
+      <div class="row">
+          <!-- Información de Contacto -->
+          <div class="col-lg-3 col-md-6 footer-section">
+              <h5>Contacto</h5>
+              <p>
+                  <strong>Sucursales:</strong> Lima, Miraflores, San Isidros, San Miguel, Santiago
+                  de Surco, Surquillo, Breña, chorrillos, Bellavista y Sanborja<br>
+                  <strong>Teléfono:</strong> +123 456 7890<br>
+                  <strong>Email:</strong> Chilis@gmail.com
+              </p>
+          </div>
+
+          <!-- Horario de Atención -->
+          <div class="col-lg-2 col-md-6 footer-section">
+              <h5>Horario</h5>
+              <p>
+                  <strong>Lunes - Viernes:</strong> 10:00 AM - 10:00 PM<br>
+                  <strong>Sábado:</strong> 11:00 AM - 11:00 PM<br>
+                  <strong>Domingo:</strong> 11:00 AM - 9:00 PM
+              </p>
+          </div>
+
+          <!-- Enlaces Rápidos -->
+          <div class="col-lg-2 col-md-6 footer-section">
+              <h5>Enlaces</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-custom-green">Inicio</a></li>
+                  <li><a href="#" class="text-custom-green">Carta</a></li>
+                  <li><a href="#" class="text-custom-green">Sobre Nosotros</a></li>
+              </ul>
+          </div>
+
+          <!-- Redes Sociales -->
+          <div class="col-lg-2 col-md-6 footer-section">
+              <h5>Redes Sociales</h5>
+              <a href="#" class="text-custom-green mr-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-custom-green mr-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-custom-green mr-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-custom-green mr-2"><i class="fab fa-whatsapp"></i></a>
+          </div>
+
+          <!-- Formulario de Contacto -->
+          <div class="col-lg-3 col-md-6 footer-section">
+              <h5>Envíanos un Mensaje</h5>
+              <form action="#" method="post">
+                  <div class="form-group">
+                      <label for="name">Nombre</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Correo Electrónico</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Mensaje</label>
+                      <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-12 text-center mt-4">
+              <p class="mb-0">&copy; 2024 Chili´s. Todos los derechos reservados.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- Vinculacion  Bootstrap JS y FontAwesome  -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+<!-- End of .container -->
+</body>
+</html>
