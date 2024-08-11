@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#entradas{
+    font-size: 30px;
+    font-family: cursive;
+}
+#titulo{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px 5px 40px;
+    color: #df2115;
+   
+    font-family: cursive;
+}
+#entrada{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px 5px 40px;
+    color: #df2115;
+}
+#tacos{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px 5px 40px;
+    color: #df2115;
+}
+#hamburguesa{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px 5px 40px;
+    color: #df2115;
+}
+#bowls{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px 5px 40px;
+    color: #df2115;
+}
+#quesadilla{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px 5px 40px;
+    color: #df2115;
+}
+#crispers{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px 5px 40px;
+    color: #df2115;
+}
+iframe{
+    padding: 20px;
+}
+.pb-0{
+    display: contents;
+}
+.mb-4{
+    padding-top: 20px;
+}
+.card-title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.card-text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.card{
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+
+#entradas{
+    text-decoration: none;
+    color: #df2115; 
+}
+footer a{
+    text-decoration: none;
+}
+.text-custom-green {
+    color: #516804; 
+}
+div li a{
+    color: #000000;
+}
+/*navegador style*/
+.navbar-nav .nav-link:hover {
+    color: #df2115;
+    transition: color 0.3s ease; 
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #8fa004; 
+    color: #fff; 
+  }
+  

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 20px;
+}
+.row{
+    padding: 10px 60px 10px 60px;
+}
+.nav-item{
+    font-size: 18px;
+}
+.mapa{
+    padding: 20px;
+    display: flex;
+    column-gap: 20px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+#map{
+    width: 50%;
+    height: 300px;
+}
+#video{
+    width: 50%;
+    height: 300px;
+}
+footer a{
+    text-decoration: none;
+}
+.text-custom-green {
+    color: #516804; 
+}
+/*navegador style*/
+.navbar-nav .nav-link:hover {
+    color: #df2115;
+    transition: color 0.3s ease; 
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #8fa004; 
+    color: #fff; 
+  }
+  /* Cambiar color del botón de búsqueda al pasar el cursor */
+  .btn-outline-dark:hover {
+    color: #fff; /* Cambia el color del texto */
+    background-color: #6fff00; /* Cambia el color de fondo */
+    border-color: #ff6347; /* Cambia el color del borde */
+  }
+  div h5{
+    color: #516804;
+  }

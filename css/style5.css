@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 15px;
+}
+/*navegador style*/
+.navbar-nav .nav-link:hover {
+  color: #df2115;
+  transition: color 0.3s ease; 
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #8fa004; 
+  color: #fff; 
+}
+
+
+/* PASION MISION Y VISION */
+
+.container3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+  .carta {
+    position: relative;
+    max-width: 340px;
+    height: auto;
+    background-color: #f2f8f9;
+    border-radius: 15px;
+    padding: 1em 1em;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;    
+    box-shadow: 2px 2px 10px #aaaaaa;
+    margin: 15px;
+  }
+
+  .carta:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg,  #3c6937, #dfdada);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .carta:hover:before {
+    transform: scale(28);
+  }
+  
+  .carta:hover .new{
+    transition: all 0.5s ease-out;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  
+  .carta:hover .title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+-------------------------------------
+  .title1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .carta1 {
+    position: relative;
+    max-width: 320px;
+    height: auto;
+    background-color: #f2f8f9;
+    border-radius: 15px;
+    padding: 1em 1em;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    box-shadow: 2px 2px 10px #aaaaaa;
+    margin: 15px;
+  }
+
+  .carta1:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg,  #3c6937, #dfdada);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .carta1:hover:before {
+    transform: scale(28);
+  }
+  
+  .carta1:hover .new1{
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  
+  .carta1:hover .title1 {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+-------------------------------------
+.title2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .carta2 {
+    
+    position: relative;
+    max-width: 320px;
+    height: auto;
+    background-color: #f2f8f9;
+    border-radius: 15px;
+    padding: 1em 1em;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    box-shadow: 2px 2px 10px #aaaaaa;
+    margin: 15px;
+  }
+  
+  .carta2:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #3c6937, #dfdada);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .carta2:hover:before {
+    transform: scale(28);
+  }
+  
+  .carta2:hover .new2{
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  
+  .carta2:hover .title2 {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+
+.reseñas{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.reseñas-2{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.card-title{
+  font-size: 15px;
+}
+footer a{
+  text-decoration: none;
+}
+.text-custom-green {
+  color: #516804; 
+}
+/*navegador style*/
+.navbar-nav .nav-link:hover {
+  color: #df2115;
+  transition: color 0.3s ease; 
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #8fa004; 
+  color: #fff; 
+}
